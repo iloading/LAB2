@@ -1,0 +1,173 @@
+/*ESTRUTURA*//*ESTRUTURA*//*ESTRUTURA*//*ESTRUTURA*//*ESTRUTURA*/
+html{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+}
+body{
+  margin:0;
+}
+header{
+  padding-top: 80px;
+  padding-bottom: 90px;
+  border-bottom: 15px solid #F5DEB3 ;
+  letter-spacing: 10px;
+  text-align: center;
+  background-color: #8a2be2;
+}
+header div{ /*Alinhar o div da imagem ao centro da página*/
+  margin:auto;
+}
+nav{
+  margin-top: 80px;
+  margin-bottom: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 4px 40px 4px 40px;
+  border: 2px dashed #8a2be2;
+  width: 960px;
+  text-align: left;
+}
+main{
+  width: 960px;
+  text-align: center;
+  margin:auto;
+}
+footer {
+  padding: 2em 0 2em;
+  font-size: 12px;
+  text-align: center;
+  color: #F5DEB3;
+  background-color: #540E95;
+}
+
+/*CONTEÚDO*//*CONTEÚDO*//*CONTEÚDO*//*CONTEÚDO*//*CONTEÚDO*//*CONTEÚDO*/
+h1{
+  margin-top: 16px;
+  margin-bottom: 80px;
+  color:#F5DEB3 ;
+}
+nav h3{ /*"Table of Contents"*/
+  text-indent: 35px;
+}
+main h3{/*Subtítulos da Página*/
+  padding-bottom: 15px;
+  margin-bottom: 25px;
+  border-bottom: 15px solid #F5DEB3;
+  text-indent: 35px;
+  text-align: left;
+}
+img{
+  margin-top: 40px;
+  width: 250px;
+  height: auto;
+}
+figure{
+  text-align: center;
+}
+figcaption{
+  text-align: center;
+  font-size: 15px;
+}
+li{
+  margin: 1.25em 0 1.25em 0;
+}
+
+
+/*CLASSES*//*CLASSES*//*CLASSES*//*CLASSES*//*CLASSES*//*CLASSES*/
+#Who p{ /*Secção Who is Hayo*/
+  text-align: left;
+  padding-left: 50px;
+  padding-right:50px;
+}
+#Who h3{ /*Alinhar o título com o texto (50-35=15px)*/
+  padding-left: 15px;
+}
+#Who figure{/*Imagem de Hayo*/
+  background-color: #F5DEB3;
+  margin:2em 0 2em 0;
+  padding:40px 0 80px 0;
+}
+#Complete{/*Secção List of films*/
+  text-align: left;
+}
+#Complete ul{/*Ajuste para centralizar com main (DIFERE DO PRINT MAS FICA MELHOR *minha opinião*)*/
+  padding-inline-start: 0px;
+}
+.listas{/*Li's da lista NÃO ORDENADA*/
+  list-style-type: none;
+  padding: 2em;
+  color: white;
+  }
+  #img1{/*Background 1*/
+    background-image: url(imagens/1.png);
+    background-size: 100%;
+    background-position: center;
+  }
+  #img2{/*Background 2*/
+    background-image: url(imagens/2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+  }
+  #img3{/*Background 3*/
+    background-image: url(imagens/3.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+  }
+.fundoAmarelo{
+  width: 299px;
+  height: 299px;
+  border-radius: 15%;
+  background-color: #F5DEB3;
+}
+.back{
+  text-align: right;
+  padding: 2em 0 2em 0;
+}
+.barra{ /*Barra do footer em tamanho maior*/
+  font-size: 18px;
+}
+/*HIPERLIGAÇÕES*//*HIPERLIGAÇÕES*//*HIPERLIGAÇÕES*//*HIPERLIGAÇÕES*//*HIPERLIGAÇÕES*/
+a{
+  text-decoration: none;
+}
+section a{ /*Botões back to top*/
+  padding: 0.5em 0.75em;
+  border-radius: 10px;
+  background-color: #dddddd;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+a:visited{
+  color: #007bff;
+}
+a:hover{
+  color: #0056b3;
+}
+footer a{
+  font-size: 18px;
+  color:#007bff
+}
+/*TABELAS*//*TABELAS*//*TABELAS*//*TABELAS*//*TABELAS*/
+table{
+  width: 100%;
+  caption-side: bottom;
+  border-collapse: collapse;
+}
+table caption{
+  font-size: 15px;
+  line-height: 35px;
+  margin-top: 1em;
+  text-align: left;
+}
+table tr td{
+  border: 2px solid #540E95;
+  padding: 1em 0.25em 1em;
+  background-color: #dddddd;
+}
+th{
+  padding: 1.5em 0.25em 1.5em 0.25em;
+  background-color: #540E95;
+  color: #F5DEB3;
+}

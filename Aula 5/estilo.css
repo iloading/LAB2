@@ -1,0 +1,66 @@
+html{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+}
+header{
+  letter-spacing: 10px;
+  text-align: center;
+}
+h1{
+  color: #8a2be2;
+}
+h3{
+  text-indent: 35px;
+}
+footer {
+  font-size: 12px;
+  text-align: center;
+  color: #540E95;
+}
+img{
+  width: 250px;
+  height: auto;
+}
+figure{
+  text-align: center;
+}
+figcaption{
+  text-align: center;
+}
+.fundoAmarelo{
+  background-color: #F5DEB3;
+}
+.back{
+  text-align: right;
+}
+a{
+  text-decoration: none;
+}
+
+.barra{
+  font-size: 18px;
+}
+
+/*HIPERLIGAÇÕES*/
+a:visited{
+  color: #007bff;
+}
+a:hover{
+  color: #0056b3;
+}
+footer a{
+  font-size: 18px;
+}
+/*TABELAS*//*TABELAS*//*TABELAS*//*TABELAS*//*TABELAS*/
+caption{
+  font-size: 12px;
+  line-height: 35px;
+}
+
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-size:18px;padding:0px 0px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:white ;}
+.tg th{font-size:18px;font-weight:normal;padding:0px 0px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:white;}
+.tg .tg-8jgo{border-color:#ffffff;text-align:center;vertical-align:top}
+.tg .tg-n82p{font-weight:bold;background-color:#540e95;color:#f5deb3;border-color:#ffffff;text-align:center;vertical-align:top}
+.tg .tg-yc05{background-color:#dddddd;border-color:#ffffff;text-align:center;vertical-align:top}
+@media screen and (max-width: 767px) {.tg {width: auto !important;}.tg col {width: auto !important;}.tg-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch;}}

@@ -1,0 +1,122 @@
+﻿ /* GLOBAL */
+html{
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 20px;
+  background-color: black;
+  padding-right: : 20px;
+  padding-left: : 20px;
+  margin-right: 20px;
+}
+
+header{
+  background-color: #1a1a1a;
+}
+nav{
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #c03328;
+  line-height: 95px;
+  font-size: 25px;
+}
+article{
+  background-color: white;
+  margin-left: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+h1{
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 46px;
+  color: #c03328;
+}
+
+figure{
+  text-align: center;
+  font-size: 14px;
+}
+footer{
+  text-align: center;
+  background-color: #4a4a4a;
+  color: white;
+  font-size: 12px;
+  padding-top: 15px;
+  margin-left: 15px;
+  padding-left: 30px;
+}
+section{
+  text-align: right;
+}
+
+a{
+  text-decoration: none;
+}
+a:link {color: #135cab}
+a:visited {color: #135cab}
+a:hover {background-color: aqua;}
+a:active {color: #135cab}
+
+/* ESPECÍFICO */
+
+.tl{
+  text-transform: uppercase;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  font-size: 180px;
+  text-align: center;
+  margin: 0;
+  padding-bottom:200px;
+  padding-top: 100px
+
+}
+
+.LgM{
+  font-size: 25px;
+}
+.imgFundo{
+  background-image: url("imagens/elite_fitness.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  height: 455px;
+}
+
+nav a {color: white; padding: 1% /*Espaçamento entre os ,inks na navBar*/;}
+nav a:link {color: white;background-color: #c03328}
+nav a:visited{color: white}
+nav a:hover {color: #c03328;background-color: white;}
+nav a:active{color: white}
+footer a:{background-color: #4a4a4a}
+footer a:hover{background-color: #4a4a4a;}
+
+/* GAMES *//* GAMES *//* GAMES *//* GAMES *//* GAMES *//* GAMES *//* GAMES */
+
+.GamesHeader{
+  background-color: white;
+  text-transform: uppercase;
+}
+header a:hover{
+  background-color: white;
+}
+header span{
+  font-size: 75px;
+  color: #c03328;
+  font-weight: 300;
+}
+.gamesSection{
+  text-align: center;
+}
+.imgEsq{
+  border-radius: 50px 0 0 50px;
+}
+.imgDir{
+  border-radius: 0px 50px 50px 0px;
+}
+.imgMeio{
+  border-radius: 50px;
+}
+.tamanhoHang{
+  width: auto;
+  height: 432px;
+}
