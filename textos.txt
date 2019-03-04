@@ -1,0 +1,67 @@
+<!-- ******************************************************************  
+PÁGINA index.html
+****************************************************************** -->
+
+Futebol em Portugal
+Os clubes que venceram o campeonato masculino
+
+Boavista Futebol Clube (BFC)
+Boavista Futebol Clube é um clube português da cidade do Porto, com sede na zona da Boavista, freguesia de Ramalde, concelho do Porto.
+Venceu 1 vez
+
+Clube de Futebol Os Belenenses (CFB)
+O Clube de Futebol Os "Belenenses" é um clube português fundado em 23 de Setembro de 1919, e tem sede em Lisboa, na freguesia de Santa Maria de Belém.
+Venceu 1 vez
+
+Futebol Club do Porto (FCP)
+Futebol Clube do Porto, mais conhecido como FC Porto ou simplesmente Porto, é um clube multidesportivo português sedeado na cidade do Porto.
+Venceu 27 vezes
+
+Sport Lisboa e Benfica (SLB)
+O Sport Lisboa e Benfica é um clube multidesportivo sediado na freguesia de São Domingos de Benfica, em Lisboa, Portugal.
+Venceu 36 vezes
+
+Sporting Clube de Portugal (SCP)
+O Sporting Clube de Portugal é um clube português, eclético e multi-desportivo, fundado a 1 de julho de 1906, com sede em Lisboa no Complexo Alvalade XXI.
+Venceu 18 vezes
+
+Ir para o topo
+
+2018 Nome do Aluno | Laboratório Multimédia II
+
+
+<!-- ******************************************************************  
+PÁGINA goleadores.html
+****************************************************************** -->
+
+Futebol em Portugal
+Os maiores goleadores do campeonato masculino
+
+Fernando Baptista de Seixas de Vasconcelos Peyroteo (Humpata, 10 de Março de 1918 - Lisboa, 28 de Novembro de 1978) foi um jogador português. Fernando Peyroteo formou com Albano, António Jesus Correia, José Travassos e também Vasques, os famosos Cinco Violinos do Sporting Clube de Portugal.
+Período 1937-49
+Marcou 332 vezes
+
+
+Eusébio da Silva Ferreira MPIH • GCIH • GCM, mais conhecido por Eusébio (Lourenço Marques, 25 de janeiro de 1942 — Lisboa, 5 de janeiro de 2014), foi um futebolista português, nascido em Moçambique durante a época colonial.[2] É considerado um dos melhores futebolistas de todos os tempos pela Federação Internacional de História e Estatísticas do Futebol (IFHHS), especialistas e fãs. Recebeu a alcunha de "Pantera Negra".
+Período 1960-77
+Marcou 320 vezes
+
+
+Fernando Mendes Soares Gomes, conhecido como Fernando Gomes (Porto, 22 de Novembro de 1956), é um ex-futebolista português que atuava como avançado. Gomes foi o melhor marcador da Primeira Divisão por três vezes consecutivas, desde 1977 até 1979, tendo marcado no campeonato 125 golos nas seis épocas em que esteve no clube, antes de viajar para Espanha.
+Período 1974-91
+Marcou 318 vezes
+
+
+José Pinto de Carvalho Santos Águas (Luanda, Angola, 9 de Novembro de 1930 — Lisboa, 10 de Dezembro de 2000) foi um futebolista português que conquistou em 1961 e em 1962 a Liga dos Campeões da UEFA, como Capitão de equipa, pelo Sport Lisboa e Benfica.
+Período 1950-63
+Marcou 290 vezes
+
+
+Tamagnini Manuel Gomes Batista ou Nené (Matosinhos, Leça da Palmeira, 20 de Novembro de 1949) é um ex-futebolista português. Fez a sua carreira primeiro no Ferroviário da Manga, em Moçambique e depois no Benfica, de 1966/67 a 1985/86, vencendo vários títulos de campeão nacional e da Taça de Portugal.
+Período 1968-86
+Marcou 262 vezes
+
+
+Ir para o topo
+
+2018 Nome do Aluno | Laboratório Multimédia II
