@@ -1,0 +1,87 @@
+/*GLOBAL*/
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+}
+/*CLUBES*/
+.boavista{
+  background-color: #101;
+}
+.benfica{
+  background-color: #CC0000;
+}
+.porto{
+  background-color: #26267F;
+}
+.scp{
+  background-color: #2D952D;
+}
+.cfb{
+  background-color: #7A7ACB;
+}
+
+/*ESPECÍFICO*/
+header{
+  letter-spacing: 3px;
+  background-color: black;
+  text-align: center;
+  padding: 15px;
+  line-height: 1.5;
+}
+h1 {
+  text-transform: uppercase;
+  font-weight: normal;
+  color:#EFE000;
+  font-size: 40px;
+}
+.subT{
+  color: white;
+  }
+
+b {
+  color:#EFE000;
+}
+
+h3 {
+  text-indent: 50px;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 50px;
+}
+article{
+  text-align: center;
+  color: white;
+}
+.descricao{
+  text-align: center;
+}
+.detalhes{
+  text-align: right;
+}
+
+.golos{
+  background-color: #EFE000;
+  font-size: 22px;
+  color: black;
+  font-family: monospace;
+  font-weight: bold;
+}
+footer{
+  text-align: center;
+  font-size: 14px;
+}
+.periodo{
+  background-color: white;
+  text-align: center;
+  color:black;
+  line-height: 50px;
+}
+.marcou{
+  background-color: black;
+  text-align: center;
+  color:white;
+  line-height: 35px;
+}
