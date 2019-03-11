@@ -1,0 +1,238 @@
+/*ESTRUTURA*//*ESTRUTURA*//*ESTRUTURA*//*ESTRUTURA*//*ESTRUTURA*//*ESTRUTURA*//*ESTRUTURA*/
+body{
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 1.2rem;
+  background-image: url("imgs/bg_striped.gif");
+  margin-top: 0;
+}
+header{
+  width: : 1000px;
+  margin: auto;
+  /*background-color: white;*/
+  color: black;
+}
+nav{
+  width: 1000px;
+  background-color: white;
+  margin: auto;
+  padding: 20px 0 20px;
+  font-size: 2.5rem;
+  text-align: center;
+}
+main{
+  width: 1000px;
+  margin: auto;
+  background-color: white;
+}
+    article{
+      margin-top: 0;
+      padding: 5px;
+      margin-bottom: 80px;
+    }
+    p{
+      color: #333;
+      font-style: italic;
+      font-size: 2rem;
+      line-height: 60px;
+      margin: 0 auto;
+
+    }
+footer{
+  width: 1000px;
+  height: 100px;
+  background-color: white;
+  margin:auto;
+  margin-top: 50px;
+  text-align: center;
+}
+figure{
+  text-align: center;
+}
+ul{
+  list-style-image: url("imgs/bullet.gif");
+}
+/*HIERARQUIAS*//*HIERARQUIAS*//*HIERARQUIAS*//*HIERARQUIAS*//*HIERARQUIAS*//*HIERARQUIAS*/
+
+article p{ /*O article p tem de vir antes do aticle p 1st child para que a mesma se sobreponha. TEM DE SER NESTA ORDEM*/
+  font-size: 1.4rem;
+  line-height: 30px;
+  font-style: normal;
+  padding-left: 10px;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+article p:first-child{
+  font-size: 2rem;
+  background-color: #dc324c;
+  color: white;
+  line-height: 3rem;
+  text-transform: uppercase;
+  padding-top: 0;
+  padding-bottom: 0;
+  border-bottom: 2px solid white;
+}
+footer p{
+  font-size: 0.9rem;
+  line-height: 10px;
+  margin:0 auto;
+}
+footer img{
+  margin-bottom: 1rem;
+}
+
+header section:nth-child(1){ /*Isto não demos mas basicamente isto é a identificar um section filho do heather, neste caso o 1ª (poderia usar 1st child)*/
+  width: 1000px;
+  margin: auto;
+  background-color: white;
+  padding: 0.7rem 0;
+}
+header section:nth-child(2){/*Isto não demos mas basicamente isto é a identificar um section filho do heather, neste caso o 2ª (NÂO poderia usar 1st child)*/
+  width: 1000px;
+  margin: auto;
+  height: 288px;
+  background-image: url("imgs/whipped_cream.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+ul ul{/*Apenas os li's da ul com pontos pretos*/
+  list-style-image: none;
+  list-style: disc;
+}
+p span{/*Usei span para o titulo a castanho na Bio*/
+  font-size: 1.4rem;
+  display: block;
+  background-color:white;
+  color: #6c4138;
+}
+article img { /*Imagem do About*/
+  width: 30%;
+  height: auto;
+  margin-bottom: 0;
+}
+
+
+
+/*HIPERLIGAÇÕES*//*HIPERLIGAÇÕES*//*HIPERLIGAÇÕES*//*HIPERLIGAÇÕES*//*HIPERLIGAÇÕES*/
+main a{
+  color: #cb5671;
+}
+nav a{
+  text-transform: uppercase;
+}
+nav a:link{
+  text-decoration: none;
+  color: #6c4138;
+  padding: 30px;
+}
+nav a:visited{
+  text-decoration: none;
+  color: #6c4138;
+  padding: 30px;
+}
+nav a:hover{
+  color: #dc324c
+}
+nav a:active{
+}
+
+article[title="contacts"] a{/*Último link, com espaçamento à esquerda*/
+  margin-left: 50px;
+}
+
+/*ESPAÇAMENTO*//*ESPAÇAMENTO*//*ESPAÇAMENTO*//*ESPAÇAMENTO*//*ESPAÇAMENTO*/
+article[title="contacts"] p:nth-child(2){
+  padding-top: 1rem;
+  padding-bottom: 2.5rem;
+}
+article[title="contacts"] p:nth-child(8){
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+}
+article[title="contacts"] p{
+  padding-top: 0;
+  padding-bottom: 0;
+}
+nav p{
+  padding-top: 1rem;
+}
+
+
+
+
+/*AULA 2*//*AULA 2*//*AULA 2*//*AULA 2*//*AULA 2*//*AULA 2*//*AULA 2*//*AULA 2*//*AULA 2*//*AULA 2*/
+main p#hiperParticipate{
+  text-align: center;
+}
+main p#hiperParticipate a{
+  text-decoration: none;
+  color: #cb5671;
+}
+main article:nth-child(2) section{ /*AUDIO*/
+  width: 50%;
+  border-radius: 25px;
+  background-color: bisque;
+  padding: 20px;
+  margin:auto;
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  color: #333;
+}
+.video{
+  width: 80%;
+  border-radius: 25px;
+  background-color: bisque;
+  padding: 20px;
+  margin: auto;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.video p{
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  margin-top: 2rem;
+  text-align: left;
+}
+article p:first-child:hover{/*Quando se passa por cima do p*/
+  text-align: center;
+  font-size: 3rem;
+  background-color: white;
+  color: #dc324c;
+  border-bottom: 2px solid #dc324c;
+}
+form{
+  padding: 30px;
+}
+form p{/*Todos os p's do form*/
+  font-size: 1.2rem;
+  color: #dc324c;
+  line-height: normal;
+  padding-left: 30px;
+  margin-top: 20px;
+}
+form p:first-child{/*Só os 1º's p's de cada section */
+  font-size: 2rem;
+  border-bottom: 2px solid #dc324c;
+  font-weight: bold;
+}
+form input, select, textarea{ /*Formatar os inputs, selects e textareas */
+  background-color: #dc324c;
+  color: white;
+  border-radius:15px;
+  padding: 8px;
+  font-size: 1.2rem;
+}
+form input:focus , select:focus , textarea:focus{/*Quando se seleciona as caixas */
+  background-color:bisque;
+  color: black;
+}
+textarea{
+  margin-top: 15px;
+}
+form p:nth-last-child(1){/*Último p do form */
+  font-size: 1rem;
+  line-height: normal;
+  margin-top: 40px;
+  color: black;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Formulários</title>
+	
+	<style>
+	   input:focus { background-color: #FFFFCC; }
+	</style>
+	
+	
+</head>
+<body>
+
+<form id="formulario" method="post" action="http://blogs.ua.pt/heldercaixinha/form_result.php" autocomplete="on">
+    Formulário
+    <p>Que nota quero tirar no teste? <input type="number" name="nota" min="0" max="20" value="10" step="2"></p>
+	
+    <p>Data em que farei o teste? <input type="date" name="data1" min="2019-02-01" max="2020-08-01"></p>
+	
+    <p>Data e hora em que farei o teste? <input type="datetime-local" name="data_hora"></p>
+	
+    <p>Quando irei almoçar? <input type="time" name="hora" required></p>
+	
+    <p>Semana do ano em que irei de férias? <input type="week" name="semana"></p>
+	
+    <p>Mês do ano em que irei de férias? <input type="month" name="mes"></p>
+	
+    <p>Cor favorita? <input type="color" name="cor" value="#00FF00"></p>
+	
+    <p>O meu e-Mail? <input type="email" name="e_mail" placeholder="Não se esqueça do @"></p>
+	
+    <p>O meu web site? <input type="url" name="url" placeholder="Comece por http://"></p>
+	
+    <p>Sentimento pelo HTML5? Ódio <input type="range" name="sentimento" min="0" max="5"> Paixão</p>
+	
+    <p>Pesquisar por: <input type="search" name="pesquisa" required placeholder="Palavras a pesquisar"></p>
+	
+    <p>Código de País (2 letras): <input type="text" name="cod_pais" pattern="[A-Za-z]{2}"></p>
+	
+    <p>Senha: <input type="password" name="senha" pattern=".{5,}" placeholder="(5 ou mais caracteres)" autocomplete="off"></p>
+	
+    <p>O meu clube? <input list="clubes" name="clubes" autofocus>
+        <datalist id="clubes">
+            <option value="Sporting">
+            <option value="Porto">
+            <option value="Braga">
+            <option value="Beira-Mar">
+        </datalist></p>
+    
+	<p>Desempenho no teste: 0 <progress max="20" value="12"></progress> 20</p>
+    
+	<p><meter value="12" min="0" max="20"></meter>12 em 20 valores<p>
+    
+	<p><input type="submit" name="enviar1" value="Enviar dados para o servidor"></p>
+    
+</form>
+
+<p>Campo fora do formulário mas que ainda lhe pertence: <input type="text" name="campo_fora" form="formulario"></p>
+
+
+
+</body>
+</html>
