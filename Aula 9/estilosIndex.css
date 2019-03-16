@@ -1,0 +1,139 @@
+body{
+  font-family: sans-serif;
+  color: #444;
+  margin: 0;
+
+}
+/*ASIDE*//*ASIDE*//*ASIDE*//*ASIDE*//*ASIDE*/
+aside{
+  width: 16rem;
+  height: 100%;
+  position: fixed;
+  top:0;
+  left: 0;
+  right:0;
+  bottom: 0;
+  background-color: #CCC;
+}
+aside section{
+  position: absolute;
+  bottom: 6rem;
+  left: 1rem;
+  right: 1rem;
+  text-align: center;
+}
+aside section img{
+  border-radius: 100%;
+  border: 4px solid #7F7FB1;
+  max-width:100%;
+  width: 80%;
+}
+figcaption{
+  text-align: center;
+  font-size: 3.5rem;
+  font-family: Consolas;
+}
+aside section p{
+  text-align: center;
+  font-size: 12px;
+}
+/*HEADER*//*HEADER*//*HEADER*//*HEADER*//*HEADER*//*HEADER*//*HEADER*/
+header{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 16rem;
+  background-color: #008B8B;
+}
+nav a{
+  text-decoration: none;
+  color: #444;
+  background-color: #CCC;
+  border-radius: 15px;
+  border-bottom: 3px solid white;
+  padding: 6px;
+  margin-right: 0.25rem;
+  margin-left: 0.25rem;
+}
+nav a:hover{/*Parte de baixo preta quando se passa o rato*/
+border-bottom: 3px solid #444;
+}
+nav{
+  float: left;
+  margin-left:5rem;
+  margin-top:1.5rem;
+  margin-bottom:1.5rem;
+}
+header input{/*Barra de pesquisa*/
+  float: right;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-right: 5rem;
+  background-color: #444;
+  padding: 7px;
+  border: 2px solid white;
+  border-radius: 30px;
+  color: white;
+}
+header input:focus{/*Para que quando se carregue na caixa, não fique um outline azul*/
+  outline: none;
+}
+/*MAIN*//*MAIN*//*MAIN*//*MAIN*//*MAIN*//*MAIN*//*MAIN*//*MAIN*//*MAIN*/
+main{
+  position: static;
+  top: 0;
+  margin-left: 16rem;
+  background-color: #EEE;
+  border: 1px solid #EEE;/*BUG*//*Sem isto o fundo não fica cinzento*/
+}
+main section{
+  margin: auto;
+  margin-top: 6rem;
+  width: 80%;
+  background-color: white;
+}
+main figure{/*Todas as figures do main*/
+  float: left;
+  margin-left: 0;
+}
+article{
+  float: right;
+  width: 70%;
+  margin-right: 3rem;
+}
+div{
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding-bottom: 3rem;
+  border-bottom: 1px dashed #444;
+}
+div p:last-child{ /*ultimos paragrafos de cada div criados apenas para formatar o conteudo*/
+  clear: both;
+}
+section div article p:nth-child(3){/*Espaçamento entre linhas no 2º paragrafo de cada article*/
+  line-height: 2rem;
+  margin: 2rem 0;
+}
+/*LINKS*//*LINKS*//*LINKS*//*LINKS*//*LINKS*//*LINKS*//*LINKS*//*LINKS*/
+article a:first-child {
+  text-decoration: none;
+  color: #008B8B;
+}
+article a:first-child:visited {
+  color: #524942;
+}
+article a:first-child:hover {
+  text-decoration: underline;
+  color: #008B8B;
+}
+article a:last-child {
+  text-decoration: underline;
+  color: #008B8B;
+}
+article a:last-child:visited {
+  color: #524942;
+}
+article a:last-child:hover {
+  text-decoration: underline;
+  color: #008B8B;
+}
