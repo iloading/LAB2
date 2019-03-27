@@ -1,0 +1,127 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: Lucida Console;
+  margin:0;
+  background-color: #f7deb5;
+}
+main{
+  position: relative;
+  top: 10rem;
+  float: left;
+  width: 75%;
+  background-color: #c5c39a;
+}
+aside{
+  position: relative;
+  top: 10rem;
+  float: left;
+  width: 25%;
+  padding: 0rem 4rem;
+  background-color: #f7deb5;
+}
+aside h3{
+  padding: 1rem 0;
+  background-color: #444;
+  color: #f7deb5;
+  margin-top: 0;
+}
+header{
+  min-height: 8rem;
+  position: fixed;
+  padding: 1rem 4rem;
+  background-color: #aa1245;
+  width: 100%;
+  color: #ADD8E6;
+  z-index: 1;
+}
+header h1{
+  color: #f7deb5;
+}
+nav a{
+  color: #f7deb5;
+}
+p{
+  line-height: 1.5rem;
+}
+figure{
+  width: 250px;
+  height: auto;
+  margin: auto;
+  text-align: center;
+  color: white;
+}
+img{
+  width: 100%;
+}
+section{
+  min-height: 100vh;
+  padding: 10rem 4rem 1rem;
+}
+section h2{
+  font-family: sans-serif;
+  letter-spacing: 10px;
+  color: #0000A0;
+  border-bottom: 2px solid #0000A0;
+}
+section p{
+  width: 60%;
+  margin: auto;
+  margin-top: 2rem;
+  color: white;
+}
+#s2{
+  background-color: #df506e;
+}
+@media only screen and (max-width: 991px){
+  body
+  header{
+    text-align: center;
+    position: static;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  header h1{
+    margin: 0;
+    padding: 1rem 0;
+  }
+  header span{
+    display: none;
+  }
+  header a{
+    display: block;
+    width: 100%;
+    background-color: #f7deb5;
+    color: #aa1245;
+    padding:2rem;
+    margin: 1rem 0;
+  }
+  main{
+    width: 100%;
+    position: static;
+  }
+  main section{
+    padding: 1rem 1.5rem 0 1.5rem;
+  }
+  figure{
+    width: 50%;
+  }
+  section p{
+    width: 100%;
+    padding-bottom: 1.5rem;
+  }
+  aside{
+    position: static;
+    width: 100%;
+    padding: 0rem 4rem;
+    margin: 4rem 0;
+    background-color: #f7deb5;
+  }
+  aside h3{
+    padding: 1rem 0;
+    background-color: #444;
+    color: #f7deb5;
+    margin-top: 0;
+  }
+}

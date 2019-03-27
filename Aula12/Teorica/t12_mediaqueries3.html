@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries 3</title>
+
+    <style>
+        * {
+            /* ############################## */
+            box-sizing: border-box;
+            margin: 0;
+        }
+        body {
+            background-color: deepskyblue;
+            font-family: Arial, sans-serif;
+            font-size: 1rem;
+        }
+        header, nav, section, aside, article, footer {
+            padding: 15px;
+            border: 1px solid black;
+        }
+        header {
+            background-color: greenyellow;
+        }
+        nav {
+            background-color: grey;
+        }
+        main {
+            /* ############################## */
+            display: flex;
+            flex-wrap: wrap;
+        }
+        aside {
+            /* ############################## */
+            flex-basis: 40%;
+            background-color: cyan;
+        }
+        section {
+            /* ############################## */
+            flex-basis: 60%;
+            background-color: lightsalmon;
+        }
+        article {
+            /* ############################## */
+            flex-basis: 100%;
+            background-color: #FFFFCC;
+        }
+        footer {
+            background-color: greenyellow;
+        }
+
+        nav a {
+            margin: 10px;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px;
+            color: white;
+        }
+        nav a:hover {
+            background-color: white;
+            color: black;
+        }
+
+
+        @media only screen and (max-width: 599px) {
+            nav a {
+                display: block;
+                width: 15%;
+                margin: 0;
+            }
+            main {
+                /* ############################## */
+                flex-direction: column;
+            }
+        }
+    </style>
+
+</head>
+<body>
+<header>
+    <h2>Título</h2>
+</header>
+<nav>
+    <a href="http://www.ua.pt">ua</a><a href="http://www.cm-aveiro.pt/">cma</a>
+</nav>
+<main>
+    <aside>Nam at sagittis velit. Curabitur ante erat, auctor et nibh nec, facilisis rutrum purus. Phasellus finibus dui sit amet lorem dictum gravida. Vestibulum efficitur elementum tellus, euismod dictum orci pharetra ut. Fusce cursus lorem nec nisi vulputate dignissim. Curabitur sed lacus est. Nulla auctor accumsan lacinia. Nam nulla est, vulputate quis elit eu, aliquam porttitor nunc.</aside>
+    <section>In in massa lorem. Cras gravida, felis semper tristique aliquam, elit justo blandit erat, et bibendum ligula ipsum quis ex. Fusce sagittis tempus mauris vel congue. Praesent non efficitur risus. Phasellus rhoncus sollicitudin turpis sed accumsan. Aliquam vestibulum accumsan sem, bibendum fermentum enim efficitur et. Nulla sapien arcu, posuere non sem eu, luctus suscipit arcu. Vivamus dui nibh, congue malesuada condimentum at, sollicitudin id eros.</section>
+    <article>Etiam egestas consectetur tellus nec consectetur. Nam vitae sem finibus, vulputate nulla in, elementum eros. Etiam sed dolor rutrum, feugiat purus vitae, volutpat nibh. Vivamus tempus semper ante, eu pulvinar felis elementum lacinia. Aliquam risus ipsum, rhoncus ac tellus quis, tempor vestibulum lacus. Fusce pellentesque tempus lorem.</article>
+</main>
+<footer>
+    <p>contactos</p>
+</footer>
+
+
+</body>
+</html>
