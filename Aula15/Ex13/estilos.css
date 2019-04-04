@@ -1,0 +1,175 @@
+* {
+    box-sizing: border-box;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    width: 100%;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("media/IMG/tic-tac-toe.png");
+    max-width: 1140px;
+    margin: auto;
+}
+
+header article{
+  min-height: 30vh;
+  padding: 2rem;
+  background-image: url(media/IMG/banner.jpg);
+  background-size: cover;
+}
+header article p{
+  background-color: rgba(50, 50,255, 0.5);
+  color: white;
+  display: inline-block;
+  padding: 1.5rem;
+  margin-left: -2rem;
+  padding-left: 2rem;
+}
+header input {
+  width: 50%;
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+  display: block;
+  font-size: 1rem;
+  padding: 0.5rem;
+  border: 1vh solid #00a0e3;
+
+}
+header figure{
+  float: left;
+  padding: 1rem;
+}
+header nav{
+  margin-top: 1.5rem;
+  text-align: right;
+}
+header nav a:first-child{
+  color: #00a0e3;
+  background-color:inherit;
+}
+main#intro{
+  font-size: 1.5rem;
+  position: absolute;
+  left: 50%;
+  top:50%;
+  transform: translateX(-50%) translateY(-50%); /*Método aprendido numa das teóricas do módulo 1*/
+}
+main{
+  background-color: #add8e6;
+  margin-top: 1rem;/*Para não aparecer uma barra de cor no fim do header*/
+}
+
+main article:nth-child(2){
+  height: 25rem;
+  font-size: 2rem;
+  background-image: url(media/IMG/thumb_01.jpg);
+  background-size: cover;
+  position: relative;
+  text-align: center;
+}
+main article:nth-child(2) div{
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  top:50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+main article:nth-child(2) div p{
+  line-height: 2rem;
+  background-color: rgba(50, 50,255, 0.5);
+  color: white;
+}
+main article:nth-child(2) div a{
+  font-size: 1rem;
+}
+img{
+  max-width: 25%;
+  height: auto;
+}
+video{
+  max-width: 100%;
+  height: auto;
+  border: 2vh solid #00a0e3;
+  border-left: 0;
+  border-right: 0;
+}
+p {
+    line-height: 1.5rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+main ul a{
+  padding: 0.25rem 0.5rem;
+  font-size: 0.75rem;
+  border-radius: 0;
+}
+
+li {
+    padding: .5rem 0;
+}
+
+figure {
+    margin: 0;
+}
+
+a {
+    background-color: #00a0e3;
+    color: white;
+    border-radius: 20px;
+    padding: 0.5rem 2rem;
+    border: 2px solid transparent;
+}
+
+a:hover {
+    border: 2px solid #00a0e3;
+    background-color: white;
+    color: #00a0e3;
+}
+.clear{
+  clear: both;
+}
+footer{
+  background-color: rgba(0, 25,255, 0.5);
+}
+footer p{
+  text-align: center;
+}
+/*Extra Small Devices*/
+@media only screen and (max-width: 599px) {
+  [class*="col-"] { width: 100%; }
+}
+/*Small Devices*/
+@media only screen and (min-width: 600px) {
+  .col-s-1 { width: 8.33%; }
+  .col-s-2 { width: 16.66%; }
+  .col-s-3 { width: 25%; }
+  .col-s-4 { width: 33.33%; }
+  .col-s-5 { width: 41.66%; }
+  .col-s-6 { width: 50%; }
+  .col-s-7 { width: 58.33%; }
+  .col-s-8 { width: 66.66%; }
+  .col-s-9 { width: 75%; }
+  .col-s-10 { width: 83.33%; }
+  .col-s-11 { width: 91.66%; }
+  .col-s-12 { width: 100%; }
+}
+/*Medium Devices*/
+@media only screen and (min-width: 768px) {
+  .col-m-1 { width: 8.33%; }
+  .col-m-2 { width: 16.66%; }
+  .col-m-3 { width: 25%; }
+  .col-m-4 { width: 33.33%; }
+  .col-m-5 { width: 41.66%; }
+  .col-m-6 { width: 50%; }
+  .col-m-7 { width: 58.33%; }
+  .col-m-8 { width: 66.66%; }
+  .col-m-9 { width: 75%; }
+  .col-m-10 { width: 83.33%; }
+  .col-m-11 { width: 91.66%; }
+  .col-m-12 { width: 100%; }
+}

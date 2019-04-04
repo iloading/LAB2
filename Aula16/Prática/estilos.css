@@ -1,0 +1,26 @@
+[class*="col-"]{
+  background-color: darkgray;
+  padding: 1rem;
+  border: 2px solid darkblue;
+}
+.row{
+  border: 1px solid red;
+  margin: 2vh auto;
+}
+.cat{
+  background-image: url(img/cat.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 33vh;
+  margin: 0;
+}
+.halftViewportHeight{
+  height: 50vh;
+}
+.listaD{
+  display: inline-block;
+}
+.alinharD{
+  text-align: end;
+}

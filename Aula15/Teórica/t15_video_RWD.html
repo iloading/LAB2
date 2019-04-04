@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>video RWD</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+			color: white;
+        }
+        header {
+            position: fixed;
+            top: 0; left:0; right: 0;
+			text-align: center;
+			border: 8px dotted green;
+        }
+        video {
+            max-width: 100%;
+			border: 4px solid red;
+        }
+        h1 {
+            position: absolute;
+            top: 50%; left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+
+
+
+
+    </style>
+
+
+</head>
+<body>
+    <header>
+        <video autoplay loop muted>
+        <source src="ZimmerLostYourMind.mp4" type="video/mp4">
+        </video>
+        <h1>LabMM2</h1>
+    </header>
+
+</body>
+</html>
