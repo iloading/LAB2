@@ -1,0 +1,164 @@
+/*SAMUEL SANTOS mec.89149 - Criado em Google Chrome*/
+*{ /*todos os elementos*/
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: sans-serif;
+}
+/*HEADER*/
+header img{ /*Imagem inicial*/
+  width: 100%;
+}
+/*MAIN*//*MAIN*//*MAIN*//*MAIN*//*MAIN*//*MAIN*/
+main{
+  margin: 1rem;
+}
+
+h1{ /*Título Principal - Alice...blabla*/
+  font-size: 2.5rem;
+  color: #6f3926;
+  margin-bottom: 2rem;
+}
+h2{ /*elenco e sinopse*/
+  font-size: 1.5rem;
+  color: #6f3926;
+  margin-bottom: 2rem;
+}
+h1, h2, h4{
+  font-family: 'Pacifico', cursive;
+}
+main article{ /*Caixas do elenco e sinopse*/
+  border-bottom: 1px solid #6f3926;
+  margin-top: 1rem;
+  padding-bottom: 2rem;
+}
+main article p{ /*Textos no elenco e sinopse*/
+  color: #2a7589;
+  line-height: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+article a:link{ /*SABER MAIS*/
+  color: #005187;
+}
+article a:visited{/*SABER MAIS - depois de clicar*/
+  color: #005187;
+}
+/*ASIDE*//*ASIDE*//*ASIDE*//*ASIDE*//*ASIDE*//*ASIDE*//*ASIDE*/
+aside{
+  background-color: #6e3928;
+}
+aside section{ /*NEWSLETTER*/
+  background-image: url(imagens/alice-bg.jpg);
+  background-size: cover;
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+  color: white;
+}
+aside img{ /*Imagem do título do filme ALICE */
+  width: 100%;
+}
+aside figcaption{ /*Descrição da imagem*/
+  text-align: center;
+  color: white;
+  padding-bottom: 1rem;
+}
+/*FORMULÁRIO*//*FORMULÁRIO*//*FORMULÁRIO*//*FORMULÁRIO*//*FORMULÁRIO*/
+form{
+  text-align: center;
+  margin: auto;
+}
+input{ /*Caixa do email e botão Subscrever*/
+  width: 98%;
+  height: 3rem;
+  font-size: 16px;
+  border: none;
+  margin: 0.5rem 0 0.5rem 0;
+  text-indent: 1rem;
+}
+input#email:focus{ /*Quando estamos na caixa email*/
+  border: 2px solid #6f3926;
+  outline: none; /*Para remover a borda azul, que está presente por definição*/
+}
+input#submit{ /*Apenas o botão SUBSCREVER*/
+  color: white;
+  background-color: #6f3926;
+  font-size: 1rem;
+  font-weight: 700;
+  outline: none; /*Para remover a borda azul, que está presente por definição*/
+
+}
+/*NAV*//*NAV*//*NAV*//*NAV*//*NAV*//*NAV*/
+nav{
+  padding-top: 2rem;
+  margin-bottom: 3rem;
+}
+li{
+  text-align: center;
+  width: 70%;
+  border-left: 2px solid white;
+  border-right:2px solid white;
+  margin: auto;
+  list-style: none;
+  margin-bottom: 1rem;
+}
+nav a{
+  font-weight: 700;
+  text-decoration: none;
+  color: white;
+}
+nav li:hover{
+  border: none;/*Efeito de desaparecer quando passa o rato*/
+}
+
+/*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*/
+footer{
+  background-image:url(imagens/alice-bg.jpg);
+  background-size: cover;
+  text-align: center;
+  color: white;
+  padding: 1rem;
+}
+/*MEDIA QUERY*//*MEDIA QUERY*//*MEDIA QUERY*//*MEDIA QUERY*/
+@media only screen and (min-width:992px) {
+  header{
+    width: 75%;
+  }
+  main{
+    width: 65%;
+    margin-left: 2rem;
+  }
+  main section{
+    display: flex;
+  }
+  main article{
+    flex-basis: 50%;
+  }
+  main article:first-child{ /*elenco*/
+    padding-right: 0.5rem;
+  }
+  main article:nth-child(2){/*sinopse*/
+    padding-left: 0.5rem;
+  }
+  video{
+    margin-top: 1rem;/*Para que se veja a linha superior  */
+  }
+  aside{
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 25%;
+    height: 100%;
+  }
+  aside section{ /*NEWSLETTER*/
+    position: absolute;
+    bottom: 0; /*Passar para baixo*/
+  }
+  footer{
+    width: 75%;
+    text-align: right;
+  }
+}
